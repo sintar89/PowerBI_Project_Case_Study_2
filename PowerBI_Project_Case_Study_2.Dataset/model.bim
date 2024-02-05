@@ -1,0 +1,3690 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1805.0 (23.12)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"FACT_Financial_Data\",\"_Measures\",\"Curr_Exchange_Helper\",\"DIM_Currencies\",\"DIM_Segment\",\"DIM_Country\",\"DIM_Product\",\"DataSourcePath\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "DIM_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "DIM date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DIM_Date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "dim period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "DIM_date.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "DIM_date.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "DIM_date.month_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Month Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "DIM_date.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "DIM_date.quarter_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Quarter Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "quarter title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "quarter label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "quarter tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "qtr name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.667
+                    }
+                  }
+                ]
+              },
+              "DIM_date.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "DIM_date.year_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "Hierarchy": "Year Hierarchy"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Date hierarchy": {
+                      "LastModified": "2023-11-23T16:20:18.323Z"
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year hierarchy": {
+                      "LastModified": "2023-11-23T16:20:18.323Z",
+                      "State": "Deleted"
+                    }
+                  },
+                  {
+                    "yr hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "year ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "year pyramid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pyramid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "DIM_date.year_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "DIM_Date",
+                    "Hierarchy": "Year Hierarchy",
+                    "HierarchyLevel": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "financial_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "financial data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Financial_data": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "data": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "financial information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "financial fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "financial info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "financial statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "financial document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "financial figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "financial_data.cost_LC": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Production Cost LC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cost LC": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "LC": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "financial_data.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "financial_data.discount_band": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Discount Band"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "discount band": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "band": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "discount posse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "posse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "discount group": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "discount gang": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "discount crew": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "discount crowd": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "discount mob": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "gang": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "crew": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "crowd": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "financial_data.discounts_LC": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Discounts LC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "discounts LC": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "discount LC": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "LC": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "financial_data.manufacturing_price_local_currency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Manufacturing Price Local Currency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "manufacturing price local currency": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "local currency": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "price local currency": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "manufacturing price local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "manufacturing price local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "price local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "price local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "manufacturing price local exchange": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "manufacturing price local cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "price local exchange": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "price local cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "financial_data.sale_price_local_currency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Sale Price Local Currency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sale price local currency": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "local currency": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "price local currency": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale price local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "sale price local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "price local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "price local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "local money": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "local coinage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sale price local exchange": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "sale price local cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "price local exchange": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "price local cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "financial_data.unit_sold": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "FACT_Financial_Data",
+                    "ConceptualProperty": "Units Sold"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "unit sold": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "module sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "element sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "entity sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "group sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "component sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "constituent sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "item sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "part sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "section sold": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "v_Measures_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_ degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "_ amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "_ size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "DIM_date_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.date"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.date": {
+                    "Target": {
+                      "Entity": "DIM_date.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.month"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.month": {
+                    "Target": {
+                      "Entity": "DIM_date.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_month_name": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.month_name"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_month_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.month_name": {
+                    "Target": {
+                      "Entity": "DIM_date.month_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.quarter"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.quarter": {
+                    "Target": {
+                      "Entity": "DIM_date.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_quarter_name": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.quarter_name"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_quarter_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.quarter_name": {
+                    "Target": {
+                      "Entity": "DIM_date.quarter_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.year"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.year": {
+                    "Target": {
+                      "Entity": "DIM_date.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_has_year_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.year_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date"
+                      }
+                    },
+                    "ID": "DIM_dates_have_year_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date": {
+                    "Target": {
+                      "Entity": "DIM_date"
+                    }
+                  },
+                  "DIM_date.year_hierarchy": {
+                    "Target": {
+                      "Entity": "DIM_date.year_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "DIM_date_year_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "DIM_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "DIM_date.year_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "DIM_date.year_hierarchy"
+                      }
+                    },
+                    "ID": "year_hierarchies_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "DIM_date.year_hierarchy": {
+                    "Target": {
+                      "Entity": "DIM_date.year_hierarchy"
+                    }
+                  },
+                  "DIM_date.year_hierarchy.year": {
+                    "Target": {
+                      "Entity": "DIM_date.year_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_cost_LC": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.cost_LC"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_cost_LC",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.cost_LC": {
+                    "Target": {
+                      "Entity": "financial_data.cost_LC"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_currency": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "currency"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_currencies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data"
+                      },
+                      "Subject": {
+                        "Role": "currency"
+                      }
+                    },
+                    "ID": "currencies_have_financial_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "currency": {
+                    "Target": {
+                      "Entity": "currency"
+                    }
+                  },
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.date"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.date": {
+                    "Target": {
+                      "Entity": "financial_data.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_discount_band": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.discount_band"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_discount_bands",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.discount_band": {
+                    "Target": {
+                      "Entity": "financial_data.discount_band"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_discounts_LC": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.discounts_LC"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_discounts_LC",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.discounts_LC": {
+                    "Target": {
+                      "Entity": "financial_data.discounts_LC"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_manufacturing_price_local_currency": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.manufacturing_price_local_currency"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_manufacturing_price_local_currencies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.manufacturing_price_local_currency": {
+                    "Target": {
+                      "Entity": "financial_data.manufacturing_price_local_currency"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_product": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.product"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.product": {
+                    "Target": {
+                      "Entity": "financial_data.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_sale_price_local_currency": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.sale_price_local_currency"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_sale_price_local_currencies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.sale_price_local_currency": {
+                    "Target": {
+                      "Entity": "financial_data.sale_price_local_currency"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_segment": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.segment"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_segments",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.segment": {
+                    "Target": {
+                      "Entity": "financial_data.segment"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "financial_data_has_unit_sold": {
+                "Binding": {
+                  "ConceptualEntity": "FACT_Financial_Data"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "financial_data.unit_sold"
+                      },
+                      "Subject": {
+                        "Role": "financial_data"
+                      }
+                    },
+                    "ID": "financial_data_have_unit_sold",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "financial_data": {
+                    "Target": {
+                      "Entity": "financial_data"
+                    }
+                  },
+                  "financial_data.unit_sold": {
+                    "Target": {
+                      "Entity": "financial_data.unit_sold"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "v_Measures_measure_has_column_1": {
+                "Binding": {
+                  "ConceptualEntity": "_Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v_Measures_measure.column_1"
+                      },
+                      "Subject": {
+                        "Role": "v_Measures_measure"
+                      }
+                    },
+                    "ID": "Phrasing_measures_have_column_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "v_Measures_measure": {
+                    "Target": {
+                      "Entity": "v_Measures_measure"
+                    }
+                  },
+                  "v_Measures_measure.column_1": {
+                    "Target": {
+                      "Entity": "v_Measures_measure.column_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "fastCombine": true,
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Curr_Exchange_Helper",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Xml.Tables(Web.Contents(\"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml\")),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"subject\", type text}}),",
+          "    #\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref\" = Table.ExpandTableColumn(#\"Changed Type\", \"http://www.ecb.int/vocabulary/2002-08-01/eurofxref\", {\"Cube\"}, {\"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube\"}),",
+          "    #\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube\" = Table.ExpandTableColumn(#\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref\", \"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube\", {\"Cube\"}, {\"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube\"}),",
+          "    #\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube\" = Table.ExpandTableColumn(#\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube\", \"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube\", {\"Cube\"}, {\"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube.Cube\"}),",
+          "    #\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube.Cube\" = Table.ExpandTableColumn(#\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube\", \"http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube.Cube\", {\"Attribute:currency\", \"Attribute:rate\"}, {\"Attribute:currency\", \"Attribute:rate\"}),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Expanded http://www.ecb.int/vocabulary/2002-08-01/eurofxref.Cube.Cube.Cube\",{{\"Attribute:currency\", \"Currency Name\"}, {\"Attribute:rate\", \"Rate\"}}),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Rate\", type number}, {\"Currency Name\", type text}}),",
+          "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type1\",{\"Currency Name\", \"Rate\"}),",
+          "    #\"Trimmed Text\" = Table.TransformColumns(#\"Removed Other Columns\",{{\"Currency Name\", Text.Trim, type text}})",
+          "in",
+          "    #\"Trimmed Text\""
+        ],
+        "kind": "m",
+        "lineageTag": "17141eae-7408-4c81-85ce-3caf6d0a12e5",
+        "queryGroup": "Helpers"
+      },
+      {
+        "name": "DataSourcePath",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"C:\\Users\\sinta\\Documents\\PowerBI Kurs\\CS4\" meta [IsParameterQuery=true, Type=\"Any\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "5afa26f8-d835-4f1f-8446-86fb1700a206",
+        "queryGroup": "Parameters"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Helpers"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "FACT"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "DIM"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "3"
+          }
+        ],
+        "folder": "Parameters"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "e83b031a-36b0-42f8-947f-e93c42c978dd",
+        "fromColumn": "Segment ID",
+        "fromTable": "FACT_Financial_Data",
+        "toColumn": "Segment ID",
+        "toTable": "DIM_Segment"
+      },
+      {
+        "name": "e614acbe-0ee9-46a7-8413-3db4f12e5f35",
+        "fromColumn": "Country ID",
+        "fromTable": "FACT_Financial_Data",
+        "toColumn": "Country ID",
+        "toTable": "DIM_Country"
+      },
+      {
+        "name": "3424a217-82c3-495d-baad-3b06c36bd518",
+        "fromColumn": "Product ID",
+        "fromTable": "FACT_Financial_Data",
+        "toColumn": "Product ID",
+        "toTable": "DIM_Product"
+      },
+      {
+        "name": "4b92402c-57b5-4af4-89bd-d5d6e070ed1d",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Country",
+        "fromTable": "DIM_Currencies",
+        "toColumn": "Country",
+        "toTable": "DIM_Country"
+      },
+      {
+        "name": "53bd8da4-aa5a-4d52-a4da-0ef23a2526c0",
+        "fromColumn": "Date",
+        "fromTable": "FACT_Financial_Data",
+        "toColumn": "Date",
+        "toTable": "DIM_Date"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "FACT_Financial_Data",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Discount Band",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ae0b0b8-937d-4d85-b419-8e3e2305b5de",
+            "sourceColumn": "Discount Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Units Sold",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "68fc99aa-8d6a-41ff-9819-e81ec3334597",
+            "sourceColumn": "Units Sold",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manufacturing Price Local Currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ce205f91-9d46-4726-8ca9-ea6978469f5f",
+            "sourceColumn": "Manufacturing Price Local Currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sale Price Local Currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9f3b85de-293b-4aa6-af7a-7d4a32e160d6",
+            "sourceColumn": "Sale Price Local Currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Discounts LC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a1bc3f63-5b75-4168-bef4-4cbcc95c350d",
+            "sourceColumn": "Discounts LC",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isHidden": true,
+            "lineageTag": "b2c394bd-76da-4046-8a01-650eb71233b2",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Production Cost LC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "FACT_Financial_Data[Units Sold] * FACT_Financial_Data[Manufacturing Price Local Currency]",
+            "isDataTypeInferred": true,
+            "lineageTag": "f7e4729d-ff82-4bc1-a80e-5cf4fcb8ef66",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Currency Rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "isHidden": true,
+            "lineageTag": "3972cb37-c5ce-4b4c-b475-8fa9060da3f4",
+            "sourceColumn": "Currency Rate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sales LC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "FACT_Financial_Data[Units Sold] * FACT_Financial_Data[Sale Price Local Currency]",
+            "isDataTypeInferred": true,
+            "lineageTag": "91342476-e580-4bce-9162-01a37eba6bbc",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Profit LC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "FACT_Financial_Data[Sales LC] - FACT_Financial_Data[Production Cost LC]",
+            "isDataTypeInferred": true,
+            "lineageTag": "d05c2f0c-6e4d-4051-b06a-5b20ae882ac8",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Segment ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ed10c176-0a38-442b-aa9e-d04712cdccd3",
+            "sourceColumn": "Segment ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "fc597895-f24c-4a54-9d71-ae8935df6b49",
+            "sourceColumn": "Country ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e0d7311d-28ed-4e54-93f6-fb74f0f8c205",
+            "sourceColumn": "Product ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Production Cost EUR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "",
+              "DIVIDE(FACT_Financial_Data[Production Cost LC], FACT_Financial_Data[Currency Rate])"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "57bb6f16-4f11-4313-b40d-e2e918b7e0d9",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Sales EUR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "",
+              "DIVIDE(FACT_Financial_Data[Sales LC], FACT_Financial_Data[Currency Rate])"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "1363cea2-c48b-4b02-82a7-640cdee64531",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Profit EUR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "",
+              "DIVIDE(FACT_Financial_Data[Profit LC], FACT_Financial_Data[Currency Rate])"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "bffcb2fd-d58c-4739-ab11-54c49b429fc3",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Discounts EUR",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "",
+              "DIVIDE(FACT_Financial_Data[Discounts LC], FACT_Financial_Data[Currency Rate])"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "5a9da314-1c32-43e6-bcf2-a107647b0b8f",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "45532f1b-6d6f-4b82-b941-58541883f8e7",
+        "partitions": [
+          {
+            "name": "FACT_Financial_Data",
+            "mode": "import",
+            "queryGroup": "FACT",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(DataSourcePath & \"\\Case+DAX.xlsx\"), null, true),",
+                "    Financial_data_Table = Source{[Item=\"Financial_data\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Financial_data_Table,{{\"Segment\", type text}, {\"Country\", type text}, {\"Product\", type text}, {\"Discount Band\", type text}, {\"Units Sold\", Int64.Type}, {\"Manufacturing Price Local Currency\", type number}, {\"Sale Price Local Currency\", type number}, {\"Discounts LC\", type number}, {\"Date\", type date}}),",
+                "    #\"Merged Queries\" = Table.NestedJoin(#\"Changed Type\", {\"Country\"}, DIM_Currencies, {\"Country\"}, \"Currencies\", JoinKind.LeftOuter),",
+                "    #\"Expanded Currencies\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Currencies\", {\"Currency Rate\"}, {\"Currency Rate\"}),",
+                "    #\"Merged Queries1\" = Table.NestedJoin(#\"Expanded Currencies\", {\"Segment\"}, DIM_Segment, {\"Segment\"}, \"DIM_Segment\", JoinKind.LeftOuter),",
+                "    #\"Expanded DIM_Segment\" = Table.ExpandTableColumn(#\"Merged Queries1\", \"DIM_Segment\", {\"Segment ID\"}, {\"Segment ID\"}),",
+                "    #\"Merged Queries2\" = Table.NestedJoin(#\"Expanded DIM_Segment\", {\"Country\"}, DIM_Country, {\"Country\"}, \"DIM_Country\", JoinKind.LeftOuter),",
+                "    #\"Expanded DIM_Country\" = Table.ExpandTableColumn(#\"Merged Queries2\", \"DIM_Country\", {\"Country ID\"}, {\"Country ID\"}),",
+                "    #\"Merged Queries3\" = Table.NestedJoin(#\"Expanded DIM_Country\", {\"Product\"}, DIM_Product, {\"Product\"}, \"DIM_Product\", JoinKind.LeftOuter),",
+                "    #\"Expanded DIM_Product\" = Table.ExpandTableColumn(#\"Merged Queries3\", \"DIM_Product\", {\"Product ID\"}, {\"Product ID\"}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Expanded DIM_Product\",{\"Discount Band\", \"Units Sold\", \"Manufacturing Price Local Currency\", \"Sale Price Local Currency\", \"Discounts LC\", \"Date\", \"Currency Rate\", \"Segment ID\", \"Country ID\", \"Product ID\"})",
+                "in",
+                "    #\"Removed Other Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "cae823a2-7552-4561-a6e9-3b8ddc9b3864",
+        "measures": [
+          {
+            "name": "Total Sales LC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Sales LC] )"
+            ],
+            "lineageTag": "5dd2d6dc-7af7-4867-94c9-be96ad64d997"
+          },
+          {
+            "name": "Total Cost LC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Production Cost LC] )"
+            ],
+            "lineageTag": "aeb53f19-28af-47a0-94fd-f70d842b91d6"
+          },
+          {
+            "name": "Margin %",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "DIVIDE ( [Total Profit LC], [Total Sales LC] )"
+            ],
+            "formatString": "+0.0%;-0.0%;0.0%",
+            "lineageTag": "23e14a59-c6cf-4d12-9fe8-8fea5142e931"
+          },
+          {
+            "name": "Total Profit LC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "[Total Sales LC] - [Total Cost LC] - [Discounts LC]"
+            ],
+            "lineageTag": "72fb0c3b-7fdb-4127-87f0-b40b6fe79797"
+          },
+          {
+            "name": "Max Date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "displayFolder": "Calendar",
+            "expression": [
+              "",
+              "MAX ( DIM_Date[Date] )"
+            ],
+            "formatString": "mmmm yyyy",
+            "lineageTag": "e0afc2db-2018-4c86-83ff-568ed0a4d45b"
+          },
+          {
+            "name": "Total Sales EUR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Sales EUR] )"
+            ],
+            "lineageTag": "750a278f-532b-4c5a-8fc1-4e1ea7f78700"
+          },
+          {
+            "name": "Total Sales MoM%",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Sales\\%",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Sales Prv Mth] ) ),",
+              "    DIVIDE ( [Total Sales MTD], [Total Sales Prv Mth] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "formatString": "+0.0%;-0.0%;0.0%",
+            "lineageTag": "edbd3ee1-afcc-47d6-b716-acd9be40882b"
+          },
+          {
+            "name": "Total Sales YoY%",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Sales\\%",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Sales Prv Year] ) ),",
+              "    DIVIDE ( [Total Sales YTD], [Total Sales Prv Year] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "formatString": "+0.0%;-0.0%;0.0%",
+            "lineageTag": "e5f2c9f7-31b7-49f3-8d68-ee89574e4c33"
+          },
+          {
+            "name": "Discounts LC",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Discounts LC] )"
+            ],
+            "lineageTag": "767400d6-f00b-440f-8ec1-4d12ae805b36"
+          },
+          {
+            "name": "Avg Sales per Country",
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "DIVIDE ( [Total Sales LC], [Count Countries] )"
+            ],
+            "formatString": "0",
+            "lineageTag": "c8710bbc-2d63-437c-b34e-0a7c9623be54"
+          },
+          {
+            "name": "Count Countries",
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "COUNT ( DIM_Country[Country ID] )"
+            ],
+            "formatString": "0",
+            "lineageTag": "2f1cbf3f-3b22-4b9e-811a-b08e12bf0614"
+          },
+          {
+            "name": "Sales Ratio By Country %",
+            "displayFolder": "Sales\\%",
+            "expression": [
+              "",
+              "VAR _totalSalesAll =",
+              "    CALCULATE ( [Total Sales LC], ALL ( DIM_Country[Country] ) )",
+              "RETURN",
+              "    IF (",
+              "        NOT ( ISBLANK ( [Currency Factor] ) ),",
+              "        DIVIDE ( [Avg Sales per Country], _totalSalesAll ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "c786eb36-c5a2-4cf6-aa7a-555c174e1927"
+          },
+          {
+            "name": "Sales Ratio Variance to Avg %",
+            "displayFolder": "Sales\\%",
+            "expression": [
+              "",
+              "VAR _avgSalesPerCountry =",
+              "    CALCULATE ( [Avg Sales per Country], ALL ( DIM_Country[Country] ) )",
+              "RETURN",
+              "    IF (",
+              "        NOT ( ISBLANK ( [Currency Factor] ) ),",
+              "        DIVIDE (",
+              "            ( [Avg Sales per Country] - _avgSalesPerCountry ),",
+              "            _avgSalesPerCountry",
+              "        ),",
+              "        BLANK ()",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "85f5d6e7-8cdb-4bee-a59b-e9ee51abafd7"
+          },
+          {
+            "name": "Currency Selector",
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SELECTEDVALUE ( 'Currency Switch'[Id] )"
+            ],
+            "formatString": "0",
+            "lineageTag": "d4d28d76-cd14-4c0d-a2ab-4747d62b8370"
+          },
+          {
+            "name": "Currency Factor",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SWITCH (",
+              "    [Currency Selector],",
+              "    1, 1,",
+              "    2, SELECTEDVALUE ( DIM_Currencies[Currency Rate] )",
+              ")"
+            ],
+            "lineageTag": "b2dda009-48a3-4ed0-893f-60b7727b45d7"
+          },
+          {
+            "name": "Total Sales",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Currency Factor] ) ),",
+              "    DIVIDE ( [Total Sales LC], [Currency Factor] ),",
+              "    [Total Sales EUR]",
+              ")"
+            ],
+            "lineageTag": "aefd9d28-5d0e-4f21-8bac-9a32764640b8"
+          },
+          {
+            "name": "Total Sales MTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "TOTALMTD ( [Total Sales], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "10dc71c1-03e0-4d14-858d-fb94f28d4aad"
+          },
+          {
+            "name": "Total Sales Prv Mth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Sales], PREVIOUSMONTH ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "54a58d11-5668-4ac2-b1b9-4196a5e064dd"
+          },
+          {
+            "name": "Total Sales Prv Year",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Sales], PREVIOUSYEAR ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "661a055b-cd95-4925-a697-8fe5543e2b3e"
+          },
+          {
+            "name": "Total Sales YTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Sales",
+            "expression": [
+              "",
+              "TOTALYTD ( [Total Sales], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "de02bd50-7249-4d5b-b1cf-767ca5aa2826"
+          },
+          {
+            "name": "Total Cost EUR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Production Cost EUR] )"
+            ],
+            "lineageTag": "b415aabd-565f-4226-bad0-d8dc8596bd05"
+          },
+          {
+            "name": "Total Cost",
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "IF (",
+              "    ISBLANK ( [Currency Factor] ),",
+              "    [Total Cost EUR],",
+              "    DIVIDE ( [Total Cost LC], [Currency Factor] )",
+              ")"
+            ],
+            "lineageTag": "ffc383d6-bc75-4f6b-a3d4-713aa718566f"
+          },
+          {
+            "name": "Total Profit",
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "IF (",
+              "    ISBLANK ( [Currency Factor] ),",
+              "    [Total Profit EUR],",
+              "    DIVIDE ( [Total Profit LC], [Currency Factor] )",
+              ")"
+            ],
+            "lineageTag": "e510c5e5-5105-4916-add1-33d661d5f04a"
+          },
+          {
+            "name": "Total Profit EUR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "[Total Sales EUR] - [Total Cost EUR] - [Discounts EUR]"
+            ],
+            "lineageTag": "89e8792a-aa1c-4096-a1ae-5f4bec815f67"
+          },
+          {
+            "name": "Discounts EUR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "SUM ( FACT_Financial_Data[Discounts EUR] )"
+            ],
+            "lineageTag": "59bd9666-2d99-42d6-b41e-8cb484bd8de5"
+          },
+          {
+            "name": "Trend Mode Selector",
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SELECTEDVALUE ( 'Trend Chart Mode Switch'[Id] )"
+            ],
+            "formatString": "0",
+            "lineageTag": "66bc763a-62fe-462a-adc9-93d0226f2ff1"
+          },
+          {
+            "name": "Trend Chart Values",
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SWITCH (",
+              "    [Trend Mode Selector],",
+              "    1, [Total Sales],",
+              "    2, [Total Profit],",
+              "    3, [Total Cost]",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "d8c692b2-cbe1-4319-bdff-0fbca7f5a5ac"
+          },
+          {
+            "name": "Total Cost Prv Mth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Cost], PREVIOUSMONTH ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "f2ac074b-ae9a-4b42-afe4-bbeaf3022ef2"
+          },
+          {
+            "name": "Total Profit Prv Mth",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Profit], PREVIOUSMONTH ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "4f340b9b-e312-43c1-a858-819dca1a92a1"
+          },
+          {
+            "name": "Total Cost Prv Year",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Cost], PREVIOUSYEAR ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "2fdadce8-8b2e-4987-809b-28b73a59108b"
+          },
+          {
+            "name": "Total Profit Prv Year",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "CALCULATE ( [Total Profit], PREVIOUSYEAR ( DIM_Date[Date] ) )"
+            ],
+            "lineageTag": "2def765d-3acd-4263-b27b-648ab2061f5a"
+          },
+          {
+            "name": "Total Cost MoM%",
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Cost Prv Mth] ) ),",
+              "    DIVIDE ( [Total Cost MTD], [Total Cost Prv Mth] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "3b9de4ab-dff3-47ec-b6e0-a0e4718ee9a8"
+          },
+          {
+            "name": "Total Cost YTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "TOTALYTD ( [Total Cost], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "2f3f67c4-6e9e-4440-a62b-96e71208dce9"
+          },
+          {
+            "name": "Total Cost MTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "TOTALMTD ( [Total Cost], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "2dfb7ffe-875e-4465-bd1d-1af454c6623a"
+          },
+          {
+            "name": "Total Profit MTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "TOTALMTD ( [Total Profit], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "90eec69d-8d88-4254-a570-d833d6bf34c2"
+          },
+          {
+            "name": "Total Profit YTD",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "TOTALYTD ( [Total Profit], 'DIM_Date'[Date] )"
+            ],
+            "lineageTag": "eb4aa90c-dd77-4782-a6d8-87739120f0ee"
+          },
+          {
+            "name": "Total Profit MoM%",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Profit Prv Mth] ) ),",
+              "    DIVIDE ( [Total Profit MTD], [Total Profit Prv Mth] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "2c21a346-2c7e-429c-aa84-678911147ccd"
+          },
+          {
+            "name": "Total Profit YoY%",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Profit",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Profit Prv Year] ) ),",
+              "    DIVIDE ( [Total Profit YTD], [Total Profit Prv Year] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "97d14f4a-bb63-4a5c-b15b-b73bf21142f9"
+          },
+          {
+            "name": "Total Cost YoY%",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Cost",
+            "expression": [
+              "",
+              "IF (",
+              "    NOT ( ISBLANK ( [Total Cost Prv Year] ) ),",
+              "    DIVIDE ( [Total Cost YTD], [Total Cost Prv Year] ) - 1,",
+              "    BLANK ()",
+              ")"
+            ],
+            "lineageTag": "1bf65886-d13a-49d2-a7bf-42aba0a5ae0c"
+          },
+          {
+            "name": "MoM% Value",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SWITCH (",
+              "    [Trend Mode Selector],",
+              "    1, [Total Sales MoM%],",
+              "    2, [Total Profit MoM%],",
+              "    3, [Total Cost MoM%]",
+              ")"
+            ],
+            "formatString": "+0.00%;-0.00%;0.00%",
+            "lineageTag": "cbcf4a7a-7347-49c4-b648-a957f9220807"
+          },
+          {
+            "name": "YoY% Value",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "SWITCH (",
+              "    [Trend Mode Selector],",
+              "    1, [Total Sales YoY%],",
+              "    2, [Total Profit YoY%],",
+              "    3, [Total Cost YoY%]",
+              ")"
+            ],
+            "formatString": "+0.00%;-0.00%;0.00%",
+            "lineageTag": "00a298e8-f8f8-4f04-b01c-41152e4f492f"
+          },
+          {
+            "name": "LC Warning",
+            "displayFolder": "Other",
+            "expression": [
+              "",
+              "IF ([Currency Selector] == 1 && DISTINCTCOUNT(DIM_Currencies[Currency]) > 1, ",
+              "    \"Caution! Data currently presented in LC mode contains different currencies. Any calculations need to be considered as showcase only!\",",
+              "    \"\"",
+              ")"
+            ],
+            "lineageTag": "4d7c1996-c2a5-4c01-ade4-17617f847f27"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DIM_Date",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "965830899a9445a093002104403b6b73"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "0a6d8f74-796c-4887-b212-bf4b5dc84eb3",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "f3800772-7052-4f3d-84c1-23d37fcce277",
+            "sourceColumn": "[Year]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3cd07128-baaa-4047-8fa1-513ddfed5432",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8d76c122-95bc-45fd-817f-e469c9f56b41",
+            "sourceColumn": "[Month]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "444502fa-9792-442c-8491-b29dccba9094",
+            "sortByColumn": "Month",
+            "sourceColumn": "[Month Name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Quarter Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "ab1b77a3-98b6-438d-a9bd-c2cd16475a71",
+            "sortByColumn": "Quarter",
+            "sourceColumn": "[Quarter Name]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "dataCategory": "Time",
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "7749e802-0ea8-4fb9-882e-a30402681f7c",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter Name",
+                "column": "Quarter Name",
+                "lineageTag": "77479a9f-9c7e-47ce-8067-0c53df24405e",
+                "ordinal": 1
+              },
+              {
+                "name": "Month Name",
+                "column": "Month Name",
+                "lineageTag": "45bb8124-9e95-4f98-831e-e142714bfad2",
+                "ordinal": 2
+              }
+            ],
+            "lineageTag": "0a46e1f1-13c7-40fe-8a6e-b3f1064b8cba"
+          }
+        ],
+        "lineageTag": "7a8b87a3-31a6-45b9-8fda-8c9f95ab5bcb",
+        "partitions": [
+          {
+            "name": "DIM_Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "ADDCOLUMNS(",
+                "    CALENDARAUTO(),",
+                "    \"Year\", YEAR([Date]),",
+                "    \"Quarter\", QUARTER([Date]),",
+                "    \"Quarter Name\", FORMAT([Date],\"\\QQ\"),",
+                "    \"Month\", MONTH([Date]),",
+                "    \"Month Name\", FORMAT([Date], \"mmm\")",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DIM_Segment",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Segment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c7094683-53fc-4f6a-8aa5-7216dc6e784b",
+            "sourceColumn": "Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f4cff3e7-f96a-4111-8f0e-53f9dcf6846c",
+            "sourceColumn": "Segment ID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "239c4be8-874f-408f-ae5d-0ac95d654d33",
+        "partitions": [
+          {
+            "name": "DIM_Segment",
+            "mode": "import",
+            "queryGroup": "DIM",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(DataSourcePath & \"\\Case+DAX.xlsx\"), null, true),",
+                "    Financial_data_Table = Source{[Item=\"Financial_data\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Financial_data_Table,{{\"Segment\", type text}, {\"Country\", type text}, {\"Product\", type text}, {\"Discount Band\", type text}, {\"Units Sold\", Int64.Type}, {\"Manufacturing Price Local Currency\", type number}, {\"Sale Price Local Currency\", type number}, {\"Discounts LC\", type number}, {\"Date\", type date}}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"Segment\"}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\"),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Removed Duplicates\", \"Segment ID\", 1, 1, Int64.Type)",
+                "in",
+                "    #\"Added Index\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DIM_Country",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Country",
+            "dataType": "string",
+            "lineageTag": "a0b8f00d-b847-40d5-aa6c-ee50806e0205",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "33b32a20-673c-46fd-a49d-506786f74990",
+            "sourceColumn": "Country ID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0db03e72-e6ac-4569-aaf2-f34ee9866669",
+        "partitions": [
+          {
+            "name": "DIM_Country",
+            "mode": "import",
+            "queryGroup": "DIM",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(DataSourcePath & \"\\Case+DAX.xlsx\"), null, true),",
+                "    Financial_data_Table = Source{[Item=\"Financial_data\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Financial_data_Table,{{\"Segment\", type text}, {\"Country\", type text}, {\"Product\", type text}, {\"Discount Band\", type text}, {\"Units Sold\", Int64.Type}, {\"Manufacturing Price Local Currency\", type number}, {\"Sale Price Local Currency\", type number}, {\"Discounts LC\", type number}, {\"Date\", type date}}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"Country\"}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\"),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Removed Duplicates\", \"Country ID\", 1, 1, Int64.Type)",
+                "in",
+                "    #\"Added Index\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DIM_Product",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de5c955c-b079-4877-93cb-b56bea278389",
+            "sourceColumn": "Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5da5b80a-5e75-4f28-8836-72bc7a461dc4",
+            "sourceColumn": "Product ID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "af9ff64a-291a-42d6-be8f-b0625611f352",
+        "partitions": [
+          {
+            "name": "DIM_Product",
+            "mode": "import",
+            "queryGroup": "DIM",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(DataSourcePath & \"\\Case+DAX.xlsx\"), null, true),",
+                "    Financial_data_Table = Source{[Item=\"Financial_data\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Financial_data_Table,{{\"Segment\", type text}, {\"Country\", type text}, {\"Product\", type text}, {\"Discount Band\", type text}, {\"Units Sold\", Int64.Type}, {\"Manufacturing Price Local Currency\", type number}, {\"Sale Price Local Currency\", type number}, {\"Discounts LC\", type number}, {\"Date\", type date}}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type\",{\"Product\"}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\"),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Removed Duplicates\", \"Product ID\", 1, 1, Int64.Type)",
+                "in",
+                "    #\"Added Index\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DIM_Currencies",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "744f94f5-871e-4bca-9e48-d8bdb2413359",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "23868b1b-c203-4e03-bfe2-eb515d8b0437",
+            "sourceColumn": "Currency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Currency Rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b27a0f5e-36be-4b71-9160-505d2bac0195",
+            "sourceColumn": "Currency Rate",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b8259b3f-dfaa-45d7-b5c0-93295c3520ae",
+        "partitions": [
+          {
+            "name": "DIM_Currencies",
+            "mode": "import",
+            "queryGroup": "DIM",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(DataSourcePath & \"\\Case+DAX.xlsx\"), null, true),",
+                "    Currencies_Table = Source{[Item=\"Currencies\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Currencies_Table,{{\"Country\", type text}, {\"Currency\", type text}}),",
+                "    #\"Merged Queries\" = Table.NestedJoin(#\"Changed Type\", {\"Currency\"}, Curr_Exchange_Helper, {\"Currency Name\"}, \"eurofxref\", JoinKind.LeftOuter),",
+                "    #\"Expanded eurofxref\" = Table.ExpandTableColumn(#\"Merged Queries\", \"eurofxref\", {\"Rate\"}, {\"Rate\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Expanded eurofxref\",{{\"Rate\", \"Rate Helper\"}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Renamed Columns\", \"Rate\", each if [Currency] = \"EUR\" then 1 else [Rate Helper]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Conditional Column\",{{\"Rate\", type number}}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Changed Type1\",{\"Country\", \"Currency\", \"Rate\"}),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Removed Other Columns\",{{\"Rate\", \"Currency Rate\"}})",
+                "in",
+                "    #\"Renamed Columns1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Currency Switch",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "2a56648b63fa476d906a42226fdb29fb"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "a217aeae-f6b5-4298-807f-e9a78c0158df",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "dd260efe-0bd6-476b-b76e-b502fd2065a8",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "a0bdc16d-a163-4af4-a3d1-cfcff59e109e",
+        "partitions": [
+          {
+            "name": "Currency Switch",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "{(\"LC\", 1), (\"EUR\", 2)}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Trend Chart Mode Switch",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "3e37a150740c4275a7649a7ff6cd650e"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "64fd64a8-b5ed-47fa-a4ce-30a8bda75b69",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "848da47a-177e-4fc5-b59a-5b6d02c6e5ea",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "6d7d3c82-7730-4469-9fb0-7a44e66b9687",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "ae942771-b4e5-4b35-8686-986dce7ae4b3",
+        "partitions": [
+          {
+            "name": "Trend Chart Mode Switch",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "{",
+                "    (\"Sales\", 1, \"Total Sales\"), ",
+                "    (\"Profit\", 2, \"Total Profit\"),",
+                "    (\"Cost\", 3, \"Total Cost\")",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1469,
+            "y": 0
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "cae823a2-7552-4561-a6e9-3b8ddc9b3864",
+          "size": {
+            "height": 387,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1160,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Date",
+          "nodeLineageTag": "7a8b87a3-31a6-45b9-8fda-8c9f95ab5bcb",
+          "size": {
+            "height": 383,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 573,
+            "y": 273
+          },
+          "nodeIndex": "FACT_Financial_Data",
+          "nodeLineageTag": "45532f1b-6d6f-4b82-b941-58541883f8e7",
+          "size": {
+            "height": 443,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 316,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Country",
+          "nodeLineageTag": "0db03e72-e6ac-4569-aaf2-f34ee9866669",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 15,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Currencies",
+          "nodeLineageTag": "b8259b3f-dfaa-45d7-b5c0-93295c3520ae",
+          "size": {
+            "height": 171,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 597,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Product",
+          "nodeLineageTag": "af9ff64a-291a-42d6-be8f-b0625611f352",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 876,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Segment",
+          "nodeLineageTag": "239c4be8-874f-408f-ae5d-0ac95d654d33",
+          "size": {
+            "height": 130,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1470,
+            "y": 417
+          },
+          "nodeIndex": "Currency Switch",
+          "nodeLineageTag": "a0bdc16d-a163-4af4-a3d1-cfcff59e109e",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1471,
+            "y": 641
+          },
+          "nodeIndex": "Trend Chart Mode Switch",
+          "nodeLineageTag": "ae942771-b4e5-4b35-8686-986dce7ae4b3",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
